@@ -15,7 +15,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
       
-      - name: use local workflow
-      - uses: ./.github/workflow/blank.yml
